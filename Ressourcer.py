@@ -1,8 +1,9 @@
 class Ressourcer:
-
-    def __init__(self, type, ekstern, intern,timer,):
+    def __init__(self, type, ekstern, intern, id):
         self.type = type
         self.ekstern = ekstern
-        self.timer = timer
         self.intern = intern
+        self.id = id
+
+
 
